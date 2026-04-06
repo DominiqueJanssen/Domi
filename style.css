@@ -202,7 +202,14 @@ h3 {
   margin: 1.4rem 0 0;
   font-size: 1.1rem;
 }
-
+.hero-proof {
+  max-width: 52ch;
+  margin: 1rem 0 0;
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.65;
+}
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
