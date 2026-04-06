@@ -174,7 +174,7 @@ h1 {
 h2 {
   font-size: clamp(2rem, 5vw, 3.6rem);
   letter-spacing: -0.05em;
-  max-width: 13ch;
+  max-width: 18ch;
 }
 
 h3 {
@@ -323,6 +323,7 @@ section {
   display: grid;
   gap: 1rem;
   margin-bottom: 2rem;
+  max-width: 60rem;
 }
 
 .section-copy {
