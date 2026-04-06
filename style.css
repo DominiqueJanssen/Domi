@@ -138,6 +138,8 @@ img {
 
 .hero-copy {
   padding: 1rem 0;
+  max-width: 58rem;
+  margin: 0 auto;
 }
 
 .eyebrow,
@@ -167,14 +169,14 @@ h3 {
 h1 {
   margin-top: 1rem;
   font-size: clamp(3rem, 8vw, 6rem);
-  max-width: 14ch;
+  max-width: 15ch;
   letter-spacing: -0.05em;
 }
 
 h2 {
   font-size: clamp(2rem, 5vw, 3.6rem);
   letter-spacing: -0.05em;
-  max-width: 18ch;
+  max-width: 20ch;
 }
 
 h3 {
@@ -202,14 +204,16 @@ h3 {
   margin: 1.4rem 0 0;
   font-size: 1.1rem;
 }
+
 .hero-proof {
   max-width: 52ch;
-  margin: 1rem 0 0;
+  margin: 0.9rem 0 0;
   color: var(--muted);
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.65;
 }
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -319,15 +323,10 @@ section {
   padding: 4.5rem 0;
 }
 
-.hero-copy {
-  padding: 1rem 0;
-  max-width: 58rem;
-}
-
 .section-head {
   display: grid;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
   max-width: 56rem;
 }
 
